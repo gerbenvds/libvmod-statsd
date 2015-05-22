@@ -1,0 +1,5 @@
+libvmod-statsd (0.1) unstable; urgency=low
+
+  * Initial Release.
+
+ -- Gerben van der Stouwe <gerben@vdstouwe.nl>  Fri, 22 May 2015 10:33:24 +0200

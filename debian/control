@@ -1,0 +1,16 @@
+Source: libvmod-statsd
+Section: web
+Priority: extra
+Maintainer: Gerben van der Stouwe <gerben@vdstouwe.nl>
+Build-Depends: debhelper (>= 8.0.0),
+ build-essential,
+ dh-autoreconf,
+ pkg-config,
+ python-docutils,
+ libvarnishapi-dev (>= 4.0.2)
+Standards-Version: 3.9.3
+
+Package: libvmod-statsd
+Architecture: any
+Depends: varnish (>= 4.0.2),${shlibs:Depends}, ${misc:Depends},${Varnish:ABI}
+Description: vmod to interface with statsd
